@@ -34,9 +34,9 @@ const SidebarRoute = ({ to, title, icon }) => {
       <ul className='mt-12'>
         <SidebarRoute to='' title='Inicio' icon='fas fa-home' />
         
-        <SidebarRoute to='/usuarios' title='Perritos' icon='fas fa-user-friends' />
+        <SidebarRoute to='/usuarios' title='Perritos' icon='fa-solid fa-dog' />
         
-        <SidebarRoute to='/proyectos' title='Vacunas' icon='fas fa-tasks' />
+        <SidebarRoute to='/proyectos' title='Vacunas' icon='fa-solid fa-syringe' />
         
         {/* <Logout /> */}
       </ul>
